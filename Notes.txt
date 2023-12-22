@@ -1,0 +1,26 @@
+****Testing the react app****
+
+Here we using vitest library.
+
+commands::  
+npm create vite@latest
+npm i vitest -D
+npm run dev : to run the aplication
+npm run test : to run the test case
+
+install the dependencies  ::
+npm i @testing-library/jest-dom @testing-library/react @testing-library/user-event jsdom -D
+
+Here we mainly tests the react components and custom hooks.
+
+setup this on package.json::
+    "test": "vitest",
+npm run test
+
+setup this on package.json::
+    "test": "vitest",
+    // this package ensures the test report
+    "test-c": "vitest --coverage"  // install this 'npm i @vitest/coverage-v8'
+
+    run test using :: npm run test-c
+
