@@ -17,6 +17,8 @@ setup this on package.json::
     "test": "vitest",
 npm run test
 
+*** add this library to get the test report****
+
 setup this on package.json::
     "test": "vitest",
     // this package ensures the test report
